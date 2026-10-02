@@ -1,7 +1,7 @@
 # 📊 Auditoría de Datos en EduTrack
 
 ## 🎯 Resumen del proyecto
-Proyecto enfocado en realizar una revisión completa de la tabla `enrollments` antes de comenzar el ciclo de reportes del Q3[cite: 18]. Para llevarlo a cabo, se utilizó **Supabase** como plataforma de base de datos para ejecutar el filtrado y análisis de los registros.
+Proyecto enfocado en realizar una revisión completa de la tabla `enrollments` antes de comenzar el ciclo de reportes. Para llevarlo a cabo, se utilizó **Supabase** como plataforma de base de datos para ejecutar el filtrado y análisis de los registros.
 
 ---
 
@@ -36,19 +36,19 @@ Proyecto enfocado en realizar una revisión completa de la tabla `enrollments` a
 --   monthly_fee_paid     : 69.99
 --   instructor           : Carlos Vega
 --
--- Your task (Q6): write the INSERT that adds this record with id = 18
+-- Your task: write the INSERT that adds this record with id = 18
 -- ============================================================
 
 ### Estructura de Entregables
 
-El proyecto consta de dos archivos principales ubicados en la raíz del repositorio[cite: 18, 19]:
+El proyecto consta de dos archivos principales ubicados en la raíz del repositorio
 
-1. **`queries.sql`**: Archivo que contiene las **12 consultas SQL** ejecutadas y probadas en Supabase, divididas en las siguientes categorías[cite: 18, 19]:
-   * Configuración de la base de datos y comprobaciones iniciales[cite: 18, 19].
-   * Lectura y filtrado de datos[cite: 18, 19].
-   * Corrección de datos (Mutaciones: `INSERT`, `UPDATE`, `DELETE`)[cite: 18, 19].
-   * Agregación e informe de métricas[cite: 18, 19].
+1. **`queries.sql`**: Archivo que contiene las **12 consultas SQL** ejecutadas y probadas en Supabase, divididas en las siguientes categorías:
+   * Configuración de la base de datos y comprobaciones iniciales.
+   * Lectura y filtrado de datos.
+   * Corrección de datos (Mutaciones: `INSERT`, `UPDATE`, `DELETE`).
+   * Agregación e informe de métricas.
 
-2. **`analysis_report.md`**: Informe de análisis detallado en formato Markdown que documenta los resultados reales obtenidos de la ejecución de cada consulta para que el equipo de operaciones pueda consultarlas sin necesidad de ejecutar código SQL[cite: 18, 19].
+2. **`analysis_report.md`**: Informe de análisis detallado en formato Markdown que documenta los resultados reales obtenidos de la ejecución de cada consulta para que el equipo de operaciones pueda consultarlas sin necesidad de ejecutar código SQL.
 
 ---
