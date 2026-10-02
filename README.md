@@ -1,15 +1,15 @@
 # 📊 Auditoría de Datos en EduTrack
 
 ## 🎯 Resumen del proyecto
-Proyecto enfocado en realizar una revisión completa de la tabla `enrollments` antes de comenzar el ciclo de reportes del Q3[cite: 18]. Para llevarlo a cabo, se utilizó **Supabase** como plataforma de base de datos para ejecutar el filtrado y análisis de los registros[cite: 18].
+Proyecto enfocado en realizar una revisión completa de la tabla `enrollments` antes de comenzar el ciclo de reportes del Q3[cite: 18]. Para llevarlo a cabo, se utilizó **Supabase** como plataforma de base de datos para ejecutar el filtrado y análisis de los registros.
 
 ---
 
 ## 🛠️ Lo que se hizo (Resumen de tareas)
-* **Configuración de la base de datos**[cite: 18]
-* **Consultas — Lectura y filtrado** (identificando progresos bajos, abandonos, instructores nulos y fechas recientes)[cite: 18]
-* **Consultas — Corrección de datos** (gestión de inserciones, actualizaciones y eliminaciones de cuentas de prueba `@test.com`)[cite: 18]
-* **Informe de análisis** (`analysis_report.md`) sustentado por las 12 queries recogidas en `queries.sql`[cite: 18]
+* **Configuración de la base de datos**
+* **Consultas — Lectura y filtrado** (identificando progresos bajos, abandonos, instructores nulos y fechas recientes).
+* **Consultas — Corrección de datos** (gestión de inserciones, actualizaciones y eliminaciones de cuentas de prueba `@test.com`)
+* **Informe de análisis** (`analysis_report.md`) sustentado por las 12 queries recogidas en `queries.sql`
 
 ---
 
